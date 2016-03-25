@@ -1,0 +1,341 @@
+.clear {clear: both;}
+
+.zone-metabox.side p {
+	font-size: 12px;
+	color: #888;
+}
+
+.zone-metabox p {
+	font-size:12px;
+	color: #777;
+}
+
+.zone-metabox i {
+	color: #666;
+	float: right;
+	margin-top: 3px;
+	border-left: 1px solid #eee;
+	padding-left: 5px;
+}
+
+.zone-metabox {
+	position: relative;
+}
+
+.zone-metabox.core .zone-element-select {
+	width: 48%;
+	float: left;
+	margin-top: 25px;	
+	position: relative;
+}
+
+.zone-metabox.side .zone-element-select {
+	width: 100%;
+	position: relative;
+}
+
+.zone-element-select a {
+	text-decoration: none;
+	color: #333;
+	font-size: 12px;
+	box-shadow: inset 0px 1px 2px #eee;
+}
+
+.zone-metabox h4 {
+	margin-bottom: -6px;
+	margin-top: 20px;
+	font-size: 13px;
+}
+
+.zone-element-select-cover {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 4px 8px;
+	box-sizing: border-box;
+	background: #fff;
+	border: 1px solid #ddd;
+	color: #565656;
+	font-family: "Helvetica Neue", Arial;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	overflow: hidden;
+	height: 28px;
+}
+
+.zone-metabox.side .zone-element-select-cover {
+	top: 0px;
+	width: 100%;
+}
+
+.zone-metabox.core .zone-element-info {
+	width: 48%;
+	float: right;
+}
+
+.zone-metabox-separator {
+	border-bottom: 1px solid #eee;
+	margin: 20px 0px;
+}
+
+.zone-metabox-input.side input[type=text], .zone-metabox-select.side select {
+	font-size: 12px;
+	width: 100%;
+	padding: 8px 8px;
+}
+
+.zone-metabox-select.side select {
+	top: 0;
+	left: 0px;
+}
+
+.zone-metabox-select select {
+	opacity: 0;
+	position: relative;
+	z-index: 4;
+	width: 100%;	
+	height: 28px;
+	cursor: pointer;
+}
+
+.zone-customizer-input {
+	font-size: 13px;
+	box-shadow: inset 0px 1px 2px #eee;
+	width: 48%;
+	float: left;
+	padding: 8px 8px;
+	margin-top: 25px;
+	border-color: #ddd;
+	color: #565656;
+	font-family: "Helvetica Neue", Arial;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;	
+}
+
+.zone-customizer-element {
+	margin-top: 10px;
+}
+
+.zone-customizer-element p {
+	margin: 0px 0px 10px 0px;
+	color: #777;
+	font-size: 12px
+}
+
+.customize-control-title {
+	margin-bottom: 0px;
+}
+
+.zone-metabox-input.core input[type=text] {
+	font-size: 12px;
+	box-shadow: inset 0px 1px 2px #eee;
+	width: 48%;
+	float: left;
+	padding: 8px 8px;
+	margin-top: 25px;
+	border-color: #ddd;
+	color: #565656;
+	font-family: "Helvetica Neue", Arial;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+.zone-metabox-input input[type=text]:focus {
+	border-color: #ddd;
+}
+
+.zone-metabox.side h4 {
+	margin-bottom: 0px;
+	font-size: 13px;
+}
+
+.zone-layout-tmpl-preview {
+	margin-bottom: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	border-top-width: 10px;
+	margin-top: 12px;
+}
+
+.zone-metabox.side .zone-layout-tmpl-preview p {
+	margin: 0px;
+	padding: 0px;
+	font-size: 11px;
+}
+
+.zone-layout-tmpl-header {
+	padding: 5%;
+	text-align: center;
+	border-bottom: 1px solid #eee;
+	box-sizing: border-box;
+	background: #fcfcfc;
+}
+
+.zone-metabox.side .zone-layout-tmpl-header p, .zone-metabox.side .zone-layout-tmpl-footer p {
+	font-size: 14px;
+}
+
+.zone-metabox.side .zone-layout-main-content p {
+	font-size: 13px;
+	margin: 6px 0px;
+}
+
+.zone-layout-sidebar-left {
+	float: left;
+	width: 25%;
+	padding: 5%;
+	font-size: 10px;
+	box-sizing: border-box;
+	border-right: 1px solid #eee;
+}
+
+.zone-layout-main-content {
+	width: 50%;
+	float: left;
+	padding: 5%;
+	box-sizing: border-box;
+}
+
+.zone-layout-sidebar-right {
+	float: left;
+	width: 25%;
+	padding: 5%;
+	font-size: 10px;
+	box-sizing: border-box;
+	border-left: 1px solid #eee;
+}
+
+.zone-layout-tmpl-footer {
+	padding: 5%;
+	text-align: center;
+	border-top: 1px solid #eee;
+	box-sizing: border-box;
+	background: #fcfcfc;
+}
+
+.zone-layout-customizer-previews {
+	
+}
+
+.zone-layout-customizer-previews li {
+	display: inline;
+	width: 46%;
+	margin-right: 8%;
+	margin-bottom: 20px;
+	font-size: 10px;
+	float: left;
+	clear: left;
+	box-sizing: border-box;
+	border: 3px solid #eee;
+	transition: border-color 0.2s ease-out;
+	-webkit-transition: border-color 0.2s ease-out;
+	cursor: pointer;
+}
+
+.zone-layout-customizer-previews li.last {
+	margin-right: 0px;
+	clear: none;
+}
+
+.zone-layout-customizer-previews li:hover, .zone-layout-customizer-previews li.active {
+	border-color: #00a0d2;
+	color: #00a0d2;
+}
+
+.zone-layout-customizer-previews li:hover .zone-customizer-preview-fullscreen,
+.zone-layout-customizer-previews li:hover .zone-customizer-preview-framed,
+.zone-layout-customizer-previews li:hover .zone-customizer-preview-boxed,
+.zone-layout-customizer-previews li:hover .zone-customizer-preview-full-width,
+.zone-layout-customizer-previews li.active .zone-customizer-preview-full-width,
+.zone-layout-customizer-previews li.active .zone-customizer-preview-boxed,
+.zone-layout-customizer-previews li.active .zone-customizer-preview-framed,
+.zone-layout-customizer-previews li.active .zone-customizer-preview-fullscreen
+{
+	background: #00a0d2;
+	transition: background 0.2s ease-out;
+	-webkit-transition: background 0.2s ease-out;
+}
+
+.zone-customizer-preview-full-width {
+	background: #e5e5e5;	
+	height: 80px;
+	position: relative;
+}
+
+.zone-customizer-preview-full-width.active {
+	background: #e5e5e5;	
+}
+
+.zone-customizer-preview-boxed {
+	background: #e5e5e5;	
+	width: 75%;
+	height: 80px;
+	margin: auto;
+}
+
+.zone-customizer-preview-boxed.active {
+	background: #e5e5e5;	
+}
+
+.zone-customizer-preview {
+	background: #f8f8f8;
+	height: 80px;
+	position: relative;
+}
+
+.zone-customizer-preview.framed {
+	padding-top: 10px;
+	height: 70px;
+}
+
+.zone-customizer-preview-framed {
+	background: #e5e5e5;	
+	height: 60px;
+	width: 82%;
+	margin: auto;
+}
+
+.zone-customizer-preview-framed.active {
+
+}
+
+.zone-customizer-preview-title {
+	
+}
+
+.zone-customizer-preview-fullscreen {
+	width: 25%;
+	background: #e5e5e5;	
+	height: 80px;
+}
+
+.zone-element-customizer-select {
+	position: relative;	
+	width: 100%;
+	opacity: 0;
+}
+
+.zone-customizer-preview-title {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	background: rgba(255,255,255,0.8);
+	box-sizing: border-box;
+	text-align: center;
+	padding: 3px;	
+}
+
+.zone-element-customizer-select .zone-element-select-cover {
+	
+}
+
+.zone-customizer-element-select {
+	position: relative;
+}
+
+.zone-customizer-element-select i {
+	float: right;
+}
